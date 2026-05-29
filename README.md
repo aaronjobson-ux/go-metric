@@ -99,3 +99,13 @@ func printTable(users []User) {
 	}
 	w.Flush()
 }
+# Go API CLI Client
+
+A fast, zero-dependency command-line interface tool written in Go that fetches user data from a public API, applies filters, and prints beautifully formatted tables or JSON raw output.
+
+## How to Build
+
+Ensure you have Go installed on your machine, then clone this repository and run:
+
+```bash
+go build -o usercli main.go
