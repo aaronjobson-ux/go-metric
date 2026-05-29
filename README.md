@@ -109,3 +109,4 @@ Ensure you have Go installed on your machine, then clone this repository and run
 
 ```bash
 go build -o usercli main.go
+./usercli
